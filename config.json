@@ -1,0 +1,40 @@
+   {
+    "access-log-file": null,
+    "background": false,
+    "bind": [
+        {
+            "host": "0.0.0.0",
+            "port": 1997,
+            "tls":  false,
+        }
+    ],
+"tls": {
+    "cert": "fullchain.pem",
+    "cert_key": "privkey.pem",
+    "dhparam": null,
+    "protocols": null,
+    "ciphers": null,
+    "ciphersuites": null
+}
+"colors": true,
+    "donate-level": 0,
+    "log-file": null,
+    "mode": "nicehash",
+    "pools": [
+        {
+            "url": "daggerhashimoto.eu.nicehash.com:3353",
+            "user": "364mLAqzmmBKkMfAYL6VawxcYaDmch6L2u",
+            "pass": "Bitopers-proxy",
+            "keepalive": true,
+            "variant": -1,
+            "algo": "ethash",
+            "tls": false,
+            "tls-fingerprint": null
+        }
+    ],
+    "retries": 2,
+    "retry-pause": 1,
+    "syslog": false,
+    "verbose": true,
+    "workers": true
+}
